@@ -227,7 +227,59 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+
+                  <div class="container" id="advanced-search-form">
+                      <h2>Registro Avanzado</h2>
+                      <form>
+                          <div class="form-group">
+                              <label for="first-name">Primer Nombre</label>
+                              <input type="text" class="form-control" placeholder="" id="first-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="first-name">Segundo Nombre</label>
+                              <input type="text" class="form-control" placeholder="" id="Second-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="last-name">Primer Apellido</label>
+                              <input type="text" class="form-control" placeholder="" id="last-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="country">Segundo Apellido</label>
+                              <input type="text" class="form-control" placeholder="" id="seccond-last-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="country">No. Identificación</label>
+                              <input type="number" class="form-control" placeholder="" id="Num-ide">
+                          </div>
+                          <div class="form-group">
+                              <label for="number">Numero de Contacto</label>
+                              <input type="text" class="form-control" placeholder="" id="number">
+                          </div>
+                          <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control" placeholder="" id="email">
+                          </div>
+                          <div class="form-group">
+                              <label for="category">Ciclo</label>
+                              <select class="form-control" name="opcionarea" id="category">
+                                <option>Técnico</option>
+                                <option>Tecnólogo</option>
+                                <option>Profesional</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="education">Rol</label>
+                              <select class="form-control">
+                                <option>Developer / Diseñador web</option>
+                                <option>Pruebas / errores</option>
+                                <option>Documentación</option>
+                              </select>
+                          </div>
+                          <div class="clearfix"></div>
+                          <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-ok ">
+                          </span> Registrar </button>
+                      </form>
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
