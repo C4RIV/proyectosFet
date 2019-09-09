@@ -63,9 +63,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Sección Proyectos:</h6>
+            <a class="collapse-item" href="#">Quiero un Proyecto</a>
+            <a class="collapse-item" href="#">Proponer Proyecto</a>
             <a class="collapse-item" href="#">Proyectos Realizados</a>
-            <a class="collapse-item" href="#">Ver avances</a>
-            <a class="collapse-item" href="#">Crear Proyecto</a>
+            <a class="collapse-item" href="#">Mi Proyecto</a>
+            <a class="collapse-item" href="#">Subir avance</a>
 
           </div>
         </div>
@@ -173,24 +175,53 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Novedades</h1>
+            <h1 class="h3 mb-0 text-gray-800"></h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generar Reporte</a>
           </div>
 
-          <!-- inicio imagenes news-->
+          <!-- inicio contenido-->
 
           <div class="row">
             <div class="container">
-              <img src="img/INGENIERIA-ELECTRICA.jpeg" class="img-fluid" alt="Responsive image">
-              <br>
-              <br>
-              <center><img src="img/inter-roscas.jpg" class="img-fluid" alt="Responsive image"></center>
+              <!-- Card Header - Dropdown -->
+              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Mi proyecto</h6>
+                <div class="dropdown no-arrow">
+                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-header">Dropdown Cabecera:</div>
+                    <a class="dropdown-item" href="#">Acción</a>
+                    <a class="dropdown-item" href="#">Otra acción</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Hablame más de esto</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card Body -->
+              <div class="card-body">
+                <div class="chart-pie pt-4 pb-2">
+                  <canvas id="myPieChart"></canvas>
+                </div>
+                <div class="mt-4 text-center small">
+                  <span class="mr-2">
+                    <i class="fas fa-circle text-primary"></i> Avanzado
+                  </span>
+                  <span class="mr-2">
+                    <i class="fas fa-circle text-success"></i> En estapa de desarrollo
+                  </span>
+                  <span class="mr-2">
+                    <i class="fas fa-circle text-info"></i> Con dudas (pendiente a consulta)
+                  </span>
+                </div>
+              </div>
 
             </div>
 
           </div>
 
-          <!-- fin imagenes newa -->
+          <!-- fin contenido-->
 
 
 

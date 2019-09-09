@@ -178,7 +178,7 @@
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generar Reporte</a>
           </div>
 
-          <!-- inicio cards -->
+          <!-- inicio proyectos -->
           <main class="main-content p-5" role="main">
             <div class="row">
               <div class="container">
@@ -207,14 +207,61 @@
                     <h5 class="card-title">Gennerador de contraseñas nuevos estudiantes</h5>
                     <p class="card-text">Se necesita desarrollar un software que genere contraseñas a partir de su primer nombre,
                       primer apellido y 3 últimos dígitos de su Cédula o Tarjeta de Id.</p>
-                    <a href="#" class="btn btn-success">Dame el proyecto</a>
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-dame-proyecto">Dame el proyecto</a>
                   </div>
                 </div>
 
               </div>
 
             </div>
+
+            <div class="row">
+              <div class="container">
+                <div class="card">
+                  <div class="card-header font-weight-bold text-success">
+                    Proyecto
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Calculador de gastos energéticos</h5>
+                    <p class="card-text">Se necesita desarrollar un software que calcule el gasto energético en base a algo.</p>
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-dame-proyecto">Dame el proyecto</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="container">
+                <div class="card">
+                  <div class="card-header font-weight-bold text-success">
+                    Proyecto
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Contabilidad</h5>
+                    <p class="card-text">Se necesita desarrollar un software avanzado para la contabilidad de la universidad.</p>
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-dame-proyecto">Dame el proyecto</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="container">
+                <div class="card">
+                  <div class="card-header font-weight-bold text-success">
+                    Proyecto
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Banco de Proyectos Ingeniería Ambiental</h5>
+                    <p class="card-text">Se necesita crear la plataforma en base a esta para el programa de Ing Ambiental.</p>
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-dame-proyecto">Dame el proyecto</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </main>
+
+          <!-- fin proyectos-->
 
           <!-- inicio modal tomar proyecto -->
           <div class="modal" tabindex="-1" role="dialog" id="modal-dame-proyecto">
@@ -276,8 +323,6 @@
                               </select>
                           </div>
                           <div class="clearfix"></div>
-                          <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-ok ">
-                          </span> Registrar </button>
                       </form>
                   </div>
                 </div>

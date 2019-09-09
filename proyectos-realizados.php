@@ -15,6 +15,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -173,7 +174,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Novedades</h1>
+            <h1 class="h3 mb-0 text-gray-800">Progreso</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generar Reporte</a>
           </div>
 
@@ -181,13 +182,36 @@
 
           <div class="row">
             <div class="container">
-              <img src="img/INGENIERIA-ELECTRICA.jpeg" class="img-fluid" alt="Responsive image">
-              <br>
-              <br>
-              <center><img src="img/inter-roscas.jpg" class="img-fluid" alt="Responsive image"></center>
+              <div class="row">
+                <div class="container">
+                  <div class="card">
+                    <div class="card-header font-weight-bold text-success">
+                      Proyecto
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Contabilidad</h5>
+                      <p class="card-text">Desarrollado por estudiantes de Sexto semestre de la jornada de la noche.</p>
+                      <a href="#" class="btn btn-success">Ver proyecto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="row">
+                <div class="container">
+                  <div class="card">
+                    <div class="card-header font-weight-bold text-success">
+                      Proyecto
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Banco de Proyectos Ingeniería Ambiental</h5>
+                      <p class="card-text">Desarrollado por estudiantes de Cuarto semestre de la jornada de la mañana.</p>
+                      <a href="#" class="btn btn-success">Ver proyecto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
           </div>
 
           <!-- fin imagenes newa -->

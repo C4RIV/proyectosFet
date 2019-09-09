@@ -63,9 +63,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Sección Proyectos:</h6>
+            <a class="collapse-item" href="#">Quiero un Proyecto</a>
+            <a class="collapse-item" href="#">Proponer Proyecto</a>
             <a class="collapse-item" href="#">Proyectos Realizados</a>
-            <a class="collapse-item" href="#">Ver avances</a>
-            <a class="collapse-item" href="#">Crear Proyecto</a>
+            <a class="collapse-item" href="#">Mi Proyecto</a>
+            <a class="collapse-item" href="#">Subir avance</a>
 
           </div>
         </div>
@@ -173,24 +175,82 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Novedades</h1>
+            <h1 class="h3 mb-0 text-gray-800">¡Queremos ver tu avance!</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generar Reporte</a>
           </div>
 
-          <!-- inicio imagenes news-->
+          <!-- inicio contenido-->
 
           <div class="row">
             <div class="container">
-              <img src="img/INGENIERIA-ELECTRICA.jpeg" class="img-fluid" alt="Responsive image">
-              <br>
-              <br>
-              <center><img src="img/inter-roscas.jpg" class="img-fluid" alt="Responsive image"></center>
+              <main class="main-content p-5" role="main">
+      					<div class="row">
+
+      					</div>
+
+      					<div class="row mb-5">
+      						<div class="col-md-12">
+      							<h2><center>GITHUB</center></h2>
+      						</div>
+      						<div class="col-md-12 mb-5">
+      							<div class="card text-center">
+      								<div class="card-header">
+      									<ul class="nav nav-tabs card-header-tabs" id="myTab-1" role="tablist">
+      										<li class="nav-item">
+      											<a class="nav-link active" href="#tab-1-1" data-toggle="tab" role="tab" aria-controls="tab-1-1" aria-selected="true">Comenta avance</a>
+      										</li>
+      										<li class="nav-item">
+      											<a class="nav-link" href="#tab-1-2" data-toggle="tab" role="tab" aria-controls="tab-1-2" aria-selected="false">Sube Link</a>
+      										</li>
+      										<li class="nav-item">
+      											<a class="nav-link" href="#tab-1-4" data-toggle="tab" role="tab" aria-controls="tab-1-4" aria-selected="false">Envía</a>
+      										</li>
+      									</ul>
+      								</div>
+      								<div class="card-body">
+      									<div class="tab-content" id="myTabContent-1">
+      										<div class="tab-pane fade show active" id="tab-1-1" role="tabpanel" aria-labelledby="tab-1-1">
+      											<h4 class="card-title">1. Comentanos que avancce has hecho hasta el momento</h4>
+      											<form>
+      											  <div class="form-group">
+      											    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa Tus comentarios">
+      											  </div>
+      											</form>
+      											<p class="card-text">Intenta NO omitir ningún detalle.</p>
+      											<a href="#tab-1-2" data-toggle="tab" role="tab" aria-controls="tab-1-1" aria-selected="true" class="btn btn-success">Siguiente paso</a>
+      										</div>
+      										<div class="tab-pane fade" id="tab-1-2" role="tabpanel" aria-labelledby="tab-1-2">
+      											<h4 class="card-title">2. Muestrame Tu avance</h4>
+      											<form>
+      											  <div class="form-group">
+      											    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa el link">
+      											  </div>
+      											</form>
+      											<p class="card-text">Pega el link correspondiente al avance.</p>
+      											<a href="#tab-1-4" class="btn btn-secondary" data-toggle="tab" role="tab" aria-controls="tab-1-1" aria-selected="true">Siguiente paso</a>
+      										</div>
+      										<div class="tab-pane fade" id="tab-1-4" role="tabpanel" aria-labelledby="tab-1-4">
+      											<h4 class="card-title">3. Tienes algo mas que anexar?</h4>
+      											<form>
+      											  <div class="form-group">
+      											    <label for="exampleFormControlFile1">Sube archivo.</label>
+      											    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      											  </div>
+      											</form>
+      											<p class="card-text">Si tienes algo más que anexar, este es tu momento, de lo contrario dale en enviar.</p>
+      											<a href="#" class="btn btn-danger">Enviar</a>
+      										</div>
+      									</div>
+      								</div>
+      							</div>
+      						</div>
+      					</div>
+      				</main>
 
             </div>
-
           </div>
 
-          <!-- fin imagenes newa -->
+          <!-- fin contenido -->
 
 
 

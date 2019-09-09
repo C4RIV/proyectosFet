@@ -63,9 +63,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Sección Proyectos:</h6>
+            <a class="collapse-item" href="#">Quiero un Proyecto</a>
+            <a class="collapse-item" href="#">Proponer Proyecto</a>
             <a class="collapse-item" href="#">Proyectos Realizados</a>
-            <a class="collapse-item" href="#">Ver avances</a>
-            <a class="collapse-item" href="#">Crear Proyecto</a>
+            <a class="collapse-item" href="#">Mi Proyecto</a>
+            <a class="collapse-item" href="#">Subir avance</a>
 
           </div>
         </div>
@@ -173,7 +175,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Novedades</h1>
+            <h1 class="h3 mb-0 text-gray-800">Propon Algo Innovador</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generar Reporte</a>
           </div>
 
@@ -181,13 +183,51 @@
 
           <div class="row">
             <div class="container">
-              <img src="img/INGENIERIA-ELECTRICA.jpeg" class="img-fluid" alt="Responsive image">
-              <br>
-              <br>
-              <center><img src="img/inter-roscas.jpg" class="img-fluid" alt="Responsive image"></center>
+              <div class="row">
+                <div class="container">
+                  <div class="container" id="advanced-search-form">
+                      <form>
+                          <div class="form-group">
+                              <label for="first-name">Nombre del Proyecto</label>
+                              <input type="text" class="form-control" placeholder="" id="first-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="last-name">Descripción del Proyecto</label>
+                              <input type="text" class="form-control" placeholder="" id="last-name">
+                          </div>
+                          <div class="form-group">
+                              <label for="category">Ciclo</label>
+                              <select class="form-control" name="opcionarea" id="category">
+                                <option>Seleccione una Opción</option>
+                                <option>Técnico</option>
+                                <option>Tecnólogo</option>
+                                <option>PProfesional</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="category">Cantidad de Integrantes</label>
+                              <select class="form-control" name="opcionarea" id="category">
+                                <option>Seleccione una Opción</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="number">Duración de Desarrollo en Meses</label>
+                              <input type="number" class="form-control" placeholder="" id="email">
+                          </div>
+                      </form>
+                  </div>
+                <div class="form-group">
+                  <label for="ejemplo_archivo_1">Adjuntar un archivo de apoyo</label>
+                  <input type="file" id="ejemplo_archivo_1">
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
+
 
             </div>
-
           </div>
 
           <!-- fin imagenes newa -->
